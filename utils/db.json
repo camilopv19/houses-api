@@ -1,0 +1,11 @@
+{
+  "houses": [
+    {
+      "zip_code": "fake Zip",
+      "address": "fake Address",
+      "lat": 111,
+      "long": 222,
+      "id": "fake-id"
+    }
+  ]
+}

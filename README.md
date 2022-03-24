@@ -1,3 +1,20 @@
+
+Houses API is a back-end assignment described bellow this section, and contains the suggested steps to run:
+1. Go to the folder in the CLI
+2. Run `npm install`
+3. Run `node app.js` (optional: Install nodemon and run `npm run start`)
+4. Test the endpoints
+
+The application uses lowdb dependency for the storage solution in a JSON file. In that way, in changes will be visible in the file located in /utils/db.json, in case of not relying entirely on the get methods to see changes.
+Also, it uses uuid dependency for the GUID format when generating a house id.
+
+Additionaly, I added a default GET method to get all houses with the endpoint: http://localhost:3435/houses
+
+Testing in this project was accomplished by setting up ECMA script modules for Jest, and the tests running command is:
+`npm run test`
+
+With this approach, the test lack of a decent coverage.
+
 # Backend Assignment
 
 The goal of this assignment is to create a simple **JSON** REST API able to perform `CRUD` operations against the `houses` resource. We want your setup to be minimal and we want to be mindful of your time. :)
